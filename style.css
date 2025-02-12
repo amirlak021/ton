@@ -1,9 +1,10 @@
 body{
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
     font-family: 'Arial', sans-serif; 
     font-weight: normal;
+    overflow-x: hidden;
+
 }
 
 nav{
@@ -20,6 +21,8 @@ nav{
     display: flex;
 align-items: center;
 justify-content: space-between;
+overflow-x: hidden;
+
 }
 .box{
 align-items: center;
@@ -27,6 +30,7 @@ display: flex;
 justify-content: center;
 height: 70px;
 background: linear-gradient(90.41deg, #458cfe -.89%, #7dd8fd 112.62%);
+
 }
 .logo{ 
  font-weight: bold;
@@ -50,6 +54,7 @@ text-decoration: none;
 font-size: 20px;
 padding: 10 15 10 15;
 border-radius: 10px;
+
 }
 
 .text-span{
@@ -57,6 +62,7 @@ display: flex;
 gap: 10px;
 font-size: 10px;
 font-weight: bold;
+
 }
 
 .ton2{
@@ -77,18 +83,23 @@ font-weight: bold;
     align-items: center;
     padding: 10 15 10 15;
     border-radius: 10px;
+    overflow-x: hidden;
+
 
 }
 .link{
     position: relative; left: 935px;top: 43px;
     color: black;
     text-decoration: none;
+    overflow-x: hidden;
+
 }
 .dick{
     font-size: 7rem;
     text-align: center;
     margin-top: 150px;
     font-weight: bold;
+
 
 }
 .banana{
@@ -101,11 +112,13 @@ font-weight: bold;
     background: linear-gradient(90.41deg, #458cfe -.89%, #ed7bf7 112.62%);
     -webkit-background-clip: text; 
     color: transparent; 
+
 }
 .orange{
     text-align: center;
     position: relative; bottom: 100px;
     font-size: 1rem;
+
 }
 .btn1{
     border: 1px solid rgba(0, 0, 0, 0.126);
@@ -117,6 +130,7 @@ font-weight: bold;
     font-weight: bold;
     position: relative; top: 20px;
 
+
 }
 .btn{
     display: flex;
@@ -125,6 +139,7 @@ font-weight: bold;
     position: relative; bottom: 100px;
     color: white;
     gap: 30px;
+
     
 }
 .btn1:hover{
@@ -134,16 +149,23 @@ font-weight: bold;
 }
 
 .box2{
-    display: flex;
-    justify-content:left;
+  
+   
     height: 800px;
-    font-size: 3rem;
-    font-weight: bold;
     background-color:rgba(0, 0, 0, 0.044);
-    opacity: 0.9;
-    padding: 50px;
 }
-
+.head-box{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.ob{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 200%;
+}
 .btnw{
     border: 1px solid rgba(3, 129, 255, 0.126);
     padding: 16px 32px;
@@ -153,8 +175,6 @@ font-weight: bold;
     color: white;
     font-size: 16px;
     font-weight: bold;
-    position: relative; left: 120%;
-    bottom: 17%;
 }
 
 .tel{
@@ -170,15 +190,10 @@ font-weight: bold;
     bottom: 110px;
 }
 
-.box3{
-    position: relative; left: 16%;
-}
-.matntel2{
-    position: relative; right: 20%;
-}
+
 .dokme{
-    position: relative; left: 80%;
-    bottom: 23%;
+    position: relative;
+    z-index: 12000;
 }
 .boxlo{
     width: 0px;
@@ -200,21 +215,14 @@ position: relative; bottom: 20px;
     background-color: #0088FF; 
     padding: 20px;
     border-radius: 10px;
-    display: inline-block;
     width: 300px;
     height: 435px;
-    position: relative; bottom: 7rem;
+    position: relative; 
     box-shadow: red;
     
 }
 
-.wlo{
-    position: relative; top: 10px;
-    display: grid;
-    grid-row-start: auto;
-
-}
- .
+ 
 
 .imgph{
     position: relative; left: 30px;
@@ -226,13 +234,10 @@ position: relative; bottom: 20px;
     background-color: #ffffff; 
     padding: 20px;
     border-radius: 10px;
-    display: inline-block;
     width: 300px;
     height: 435px;
-    position: relative; left: 340px;
-    bottom: 470px;
+    position: relative;
     box-shadow: white;
-    grid-row:auto;
     border: 1px solid rgba(3, 129, 255, 0.126);
 }
 .imgph2{
@@ -256,11 +261,9 @@ left: 25px;
     background-color: #181616; 
     padding: 20px;
     border-radius: 10px;
-    display: inline-block;
     width: 300px;
     height: 435px;
-    position: relative; bottom: 540px;
-    left: 340px;
+    position: relative; 
 }
 .blackbox{
     padding-left: 30px;
@@ -275,6 +278,12 @@ left: 25px;
 .rangim{
     color: #00aaff;
 }
+.l{
+    height: 100%;
+    overflow-x: scroll;
+    z-index: 1000;
+    position: relative;
+}
 .boxx4{
     background-color: #fffdfd; 
     padding: 20px;
@@ -282,9 +291,8 @@ left: 25px;
     display: inline-block;
     width: 300px;
     height: 435px;
-    position: relative; bottom: 490px;
-    left: 340px;
-    border: 1px solid rgba(3, 129, 255, 0.126);
+    position: relative; 
+   border: 1px solid rgba(3, 129, 255, 0.126);
     box-shadow: #ffffff;
 }
 .cent{
@@ -298,4 +306,49 @@ left: 25px;
 .rab{
     color: #00aaff;
     
+}
+
+
+
+
+
+
+
+
+.a{
+    width: 100%;
+    background-color: black;
+    height: 800px;
+
+}
+.b{
+    display: flex;
+overflow-x: scroll;
+justify-content: space-between;
+width: 100%;
+}
+.c{
+    width: 1000px;
+    height: 700px;
+    background-color: red;
+}
+.d{
+    width: 1000px;
+    height: 700px;
+    background-color: blue;
+}
+.e{
+    width: 1000px;
+    height: 700px;
+    background-color: red;
+}
+.f{
+    width: 1000px;
+    height: 400px;
+    background-color: bisque;
+}
+.k{
+    width: 100%;
+    max-width: 1300px;
+margin: auto;
 }
