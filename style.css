@@ -310,14 +310,10 @@ left: 25px;
 
 
 
-
-
-
-
-
 .a{
     width: 100%;
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.044);
+    opacity: 0.9;
     height: 800px;
 
 }
@@ -328,9 +324,26 @@ justify-content: space-between;
 width: 100%;
 }
 .c{
-    width: 1000px;
-    height: 700px;
-    background-color: red;
+    width: 1200px;
+    height: 600px;
+    background-color:  #40A8F3;
+    position: relative; top: 120px;
+    border-radius: 35px;
+}
+.cp{
+    position: relative; left: 50px;
+    top: 200px;
+}
+.cm{
+  position: relative; bottom: 350px;
+  left: 50px;
+  font-size: large;
+  font-weight: bold;
+  color:white;
+}
+.cl{
+    position: relative; right: 250px;
+    bottom: 326px;
 }
 .d{
     width: 1000px;
