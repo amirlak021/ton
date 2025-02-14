@@ -322,11 +322,11 @@ left: 25px;
     display: flex;
 overflow-x: scroll;
 justify-content: space-between;
-width: 100%;
-gap: 16px;
+width: 130%;
+gap: 26px;
 }
 .c{
-    width: 3000px;
+    width: 2200px;
     height: 600px;
     background-color:  #40A8F3;
     border: 1px solid rgba(3, 129, 255, 0.126);
@@ -340,16 +340,16 @@ gap: 16px;
 .cm{
   position: relative; bottom: 350px;
   left: 50px;
-  font-size: large;
+  font-size: 23px;
   font-weight: bold;
   color:white;
 }
 .cl{
     position: relative; right: 250px;
-    bottom: 326px;
+    bottom: 320px;
 }
 .d{
-    width: 3200px;
+    width: 2200px;
     height: 600px;
     background-color:  #ffffff;
     box-shadow: #e70707;
@@ -370,7 +370,7 @@ gap: 16px;
     font-size: 24px;
 }
 .e{
-    width: 3000px;
+    width: 2200px;
     height: 600px;
     background-color:   #101820;
     box-shadow: #e70707;
@@ -379,8 +379,8 @@ gap: 16px;
     border-radius: 35px;
 }
 .ep{
-   position: relative; top: 202px;
-   left: 40px;
+   position: relative; top: 201px;
+   left: 60px;
 }
 .em{
     position: relative; left: 31px;
@@ -402,10 +402,16 @@ gap: 16px;
     border-radius: 35px;
 }
 .fp{
-    
+    position: relative; left: 60px;
+}
+.fb{
+    color: #00aaff;
+    font-size: 28px;
 }
 .fm{
-    color: #00aaff;
+    font-size: 28px;
+    position: relative; left: 20px;
+    top: 20px;
 }
 .k{
     width: 100%;
