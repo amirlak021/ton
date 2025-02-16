@@ -312,26 +312,36 @@ left: 25px;
 
 .a{
     width: 100%;
-    background-color:rgba(0, 0, 0, 0.044);
+    background:#7dd8fd; 
     opacity: 0.9;
-    height: 800px;
-    
-
+    height: 800px; 
+    border-radius: 15px;
 }
 .b{
     display: flex;
-overflow-x: scroll;
-justify-content: space-between;
-width: 130%;
-gap: 26px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: space-between;
+    width: 100%; /
+    gap: 10px;
+    position: relative;
+    top: 50px;
+}
+.p{
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative; top: 4rem;
+    left: 100px;
 }
 .c{
-    width: 2200px;
-    height: 600px;
+    max-width: 100%; 
+    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
+    border-radius: 20px; /* زیباسازی */
     background-color:  #40A8F3;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
-    border-radius: 35px;
+
 }
 .cp{
     position: relative; left: 63px;
@@ -349,13 +359,13 @@ gap: 26px;
     bottom: 320px;
 }
 .d{
-    width: 2200px;
-    height: 600px;
+    max-width: 100%; 
+    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
+    border-radius: 20px; /* زیباسازی */
     background-color:  #ffffff;
-    box-shadow: #e70707;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
-    border-radius: 35px;
+    
 }
 .dp{
     position: relative; left: 63px;
@@ -370,13 +380,14 @@ gap: 26px;
     font-size: 24px;
 }
 .e{
-    width: 2200px;
-    height: 600px;
+    max-width: 100%; 
+    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
+    border-radius: 20px; /* زیباسازی */
     background-color:   #101820;
     box-shadow: #e70707;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
-    border-radius: 35px;
+    
 }
 .ep{
    position: relative; top: 201px;
@@ -393,13 +404,14 @@ gap: 26px;
 }
 
 .f{
-    width: 2200px;
-    height: 600px;
+    max-width: 100%; 
+    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
+    border-radius: 20px; /* زیباسازی */
     background-color:   #ffffff;
     box-shadow: #e70707;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
-    border-radius: 35px;
+
 }
 .fp{
     position: relative; left: 60px;
@@ -415,7 +427,7 @@ gap: 26px;
 }
 .k{
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
 margin: auto;
 
 }
