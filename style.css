@@ -218,8 +218,6 @@ position: relative; bottom: 20px;
     width: 300px;
     height: 435px;
     position: relative; 
-    box-shadow: red;
-    
 }
 
  
@@ -314,7 +312,7 @@ left: 25px;
     width: 100%;
     background:#7dd8fd; 
     opacity: 0.9;
-    height: 800px; 
+    height: 1000px; 
     border-radius: 15px;
 }
 .b{
@@ -323,7 +321,7 @@ left: 25px;
     overflow-x: auto;
     overflow-y: hidden;
     justify-content: space-between;
-    width: 100%; /
+    width: 100%; 
     gap: 10px;
     position: relative;
     top: 50px;
@@ -341,7 +339,6 @@ left: 25px;
     background-color:  #40A8F3;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
-
 }
 .cp{
     position: relative; left: 63px;
@@ -365,7 +362,6 @@ left: 25px;
     background-color:  #ffffff;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
-    
 }
 .dp{
     position: relative; left: 63px;
@@ -384,7 +380,6 @@ left: 25px;
     height: auto; /* ارتفاع اتوماتیک برای تصاویر */
     border-radius: 20px; /* زیباسازی */
     background-color:   #101820;
-    box-shadow: #e70707;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
     
@@ -408,10 +403,8 @@ left: 25px;
     height: auto; /* ارتفاع اتوماتیک برای تصاویر */
     border-radius: 20px; /* زیباسازی */
     background-color:   #ffffff;
-    box-shadow: #e70707;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
-
 }
 .fp{
     position: relative; left: 60px;
@@ -428,6 +421,5 @@ left: 25px;
 .k{
     width: 100%;
     max-width: 1500px;
-margin: auto;
-
+margin: auto
 }
