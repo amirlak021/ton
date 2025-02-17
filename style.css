@@ -4,6 +4,8 @@ body{
     font-family: 'Arial', sans-serif; 
     font-weight: normal;
     overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
 
 }
 
@@ -117,7 +119,7 @@ font-weight: bold;
 .orange{
     text-align: center;
     position: relative; bottom: 100px;
-    font-size: 1rem;
+    font-size: 2rem;
 
 }
 .btn1{
@@ -310,42 +312,70 @@ left: 25px;
 
 .a{
     width: 100%;
-    background:#7dd8fd; 
+    background-color:rgba(0, 0, 0, 0.044);
     opacity: 0.9;
     height: 1000px; 
     border-radius: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 .b{
     display: flex;
-    flex-wrap: wrap;
-    overflow-x: auto;
-    overflow-y: hidden;
     justify-content: space-between;
-    width: 100%; 
-    gap: 10px;
+    width: 110%; 
+    height: 800px;
+    gap: 20px;
     position: relative;
-    top: 50px;
+   bottom: 300px;
+    left: 50px;
+   
 }
 .p{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     position: relative; top: 4rem;
     left: 100px;
+    top: 50px;
+}
+.t{
+    position: relative; left: 440px;
+    bottom: 58px;
+}
+.o{
+    border: 0.5px solid rgba(0, 0, 0, 0.126);
+    padding: 20px;
+    border-radius: 60px;
+    background-color:#0098EA;
+    box-shadow: #0088FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative; bottom: 200px;
+    left: 80vw;
+}
+.tm{
+    font-size: 55px;
+    font-weight: bold;
+    position: relative; left: 510px;
+    bottom:180px ;
+    background:  linear-gradient(90.41deg, #458cfe -.89%, #46b4eb 112.62%);
+    -webkit-background-clip: text; 
+    color: transparent;
 }
 .c{
-    max-width: 100%; 
-    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
-    border-radius: 20px; /* زیباسازی */
+    height: 600px;
+    width: 450px;
+    border-radius: 20px; 
     background-color:  #40A8F3;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
 }
 .cp{
-    position: relative; left: 63px;
-    top: 200px;
+    position: relative; left: 36px;
+    top: 151px;
 }
 .cm{
-  position: relative; bottom: 350px;
+  position: relative; bottom: 370px;
   left: 50px;
   font-size: 23px;
   font-weight: bold;
@@ -356,15 +386,16 @@ left: 25px;
     bottom: 320px;
 }
 .d{
-    max-width: 100%; 
-    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
-    border-radius: 20px; /* زیباسازی */
+    height: 600px;
+    width: 450px;
+    border-radius: 20px; 
     background-color:  #ffffff;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
 }
 .dp{
     position: relative; left: 63px;
+   
 }
 .db{
     color: #00aaff;
@@ -376,9 +407,9 @@ left: 25px;
     font-size: 24px;
 }
 .e{
-    max-width: 100%; 
-    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
-    border-radius: 20px; /* زیباسازی */
+   height: 600px;
+   width: 450px;
+    border-radius: 20px; 
     background-color:   #101820;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
@@ -399,9 +430,9 @@ left: 25px;
 }
 
 .f{
-    max-width: 100%; 
-    height: auto; /* ارتفاع اتوماتیک برای تصاویر */
-    border-radius: 20px; /* زیباسازی */
+   height: 600px;
+   width: 450px;
+    border-radius: 20px; 
     background-color:   #ffffff;
     border: 1px solid rgba(3, 129, 255, 0.126);
     position: relative; top: 120px;
