@@ -493,8 +493,28 @@ margin: auto
     background-color: #f4f4f4;
     border-radius: 15px;
     padding: 20px;
-height: 220px;
-width: 600px;
+height: 200px;
+width: 550px;
 position: relative; left: 800px;
 top: 200px;
+}
+.svg{
+    position: relative; left: 20px;
+    top: 15px;
+}
+#svm{
+    color: gray;
+    position: relative; left: 90px;
+    bottom: 60px;
+    font-size: 20px;
+}
+#sva{
+    font-size: 1.75rem;
+    font-weight: 550;
+   position: relative; bottom: 80px;
+   left: 90px;
+}
+.kh{
+    position:  relative; bottom: 60px;
+    background-color: #d1d5db ;
 }
