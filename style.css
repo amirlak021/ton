@@ -503,7 +503,7 @@ top: 200px;
     top: 15px;
 }
 #svm{
-    color: gray;
+    color: #728A96;
     position: relative; left: 90px;
     bottom: 60px;
     font-size: 20px;
@@ -554,4 +554,26 @@ top: 200px;
     font-size: 25px;
     position: relative; bottom: 43px;
 left: 63px;
+}
+#mar{
+    position:relative; left: 245px;
+    bottom: 108px;
+    color: #728A96;
+}
+.adad{
+    position:relative; left: 250px;
+    bottom: 120px;
+    font-size: 1.45rem;
+    font-weight: 550;
+}
+.vle{
+    position: relative; bottom: 183px;
+    left: 440px;
+    color: #728A96;
+}
+#ad{
+    position: relative; bottom: 193px;
+    left: 410px;
+    font-size: 1.45rem;
+    font-weight: 550;
 }
