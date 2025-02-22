@@ -633,7 +633,7 @@ left: 63px;
 .li0{
     position: relative; top: 60px;
     left: 10px;
-    color: #00aaff;
+    color: #0198ea;
     text-decoration: none;
 }
 .yazid2{
@@ -649,5 +649,32 @@ left: 63px;
     position: relative; left: 30px;
     top: 78px;
     text-decoration: none;
-    color: #00aaff;
+    color: #0198ea;
+}
+.box04{
+    width: 320px;
+    height: 300px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    position: relative; left: 30px;
+}
+.aks04{
+    position: relative; left: 20px;
+    top: 17px;
+}
+.yazid3{
+    color: #04060bd3;
+    font-size: 20px;
+    position: relative; top: 30px;
+    left: 25px;
+}
+.soli3{
+    position: relative; left: 25px;
+    bottom: 10px;
+}
+.li2{
+    color: #0198ea;
+    text-decoration: none;
+    position: relative; left: 25px;
+    top: 17px;
 }
