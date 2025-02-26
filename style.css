@@ -787,14 +787,17 @@ top: 42px;
     margin: 0 auto;
 }
 .back1{
-    width: 330px;
+    width: 340px;
     height: 500px;
     background-color: rgba(7, 172, 255, 1);
     border-radius: 20px;
+    position: relative;
+    right: 30px;
 }
 .logo06{
-    padding-bottom: 90%;
-    position: relative; left: 30px;
+    position: relative;
+    bottom: 60%;
+    left: 30px;
 }
 .matn00{
     position: relative;
@@ -817,10 +820,13 @@ top: 42px;
     top: 150px;
 }
 .back2{
-    width: 330px;
+    width: 340px;
     height: 500px;
     background-color: #1E2531;
     border-radius: 20px;
+    position: relative;
+    right: 55px;
+    top: 0;
 }
 .logo07{
 position: relative;
@@ -840,28 +846,143 @@ left: 30px;
     font-size: 20px;
     font-weight: 600;
     font-family: sans-serif;
+} 
+.k022{
+    position: relative;
+    bottom: 315px;
+    left: 30px;
+    color: #ffffff;
 }
 .back3{
-    width: 330px;
+    width: 340px;
     height: 500px;
     background:linear-gradient(0deg, #79C9FF 0.12%, #1889FF 99.89%);
     border-radius: 20px;
+    position: relative;
+    right: 75px;
+}
+.logo08{
+    position: relative; bottom: 60%;
+    left: 30px;
+}
+.matn0000{
+    position: relative;
+    bottom: 310px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.k023{
+    position: relative;
+    bottom: 315px;
+    left: 30px;
+    color: #ffffff;
+}
+.photo3{
+    position: relative;
+    top: 150px;
+    right: 20px;
 }
 .back4{
-    width: 300px;
-    height: 400px;
-    background-color: #00aaff;
+    width: 340px;
+    height: 500px;
+    background: rgba(18, 23, 44, 1);;
     border-radius: 20px;
+    position: relative; 
+    right: 30px;
+}
+.logo09{
+    position: relative; bottom: 60%;
+    left: 30px;
+}
+.photo4{
+    position: relative;
+    top: 150px;
+    right: 55px;
+}
+.matn00000{
+    position: relative;
+    bottom: 310px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.k024{
+    position: relative;
+    bottom: 315px;
+    left: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
 }
 .back5{
-    width: 300px;
-    height: 400px;
-    background-color: #00fff7;
+    width: 340px;
+    height: 500px;
+    background: rgba(112, 123, 255, 1);
     border-radius: 20px;
+    position: relative; 
+    right: 50px;
+}
+.logo010{
+position: relative;
+top: 30px;
+left: 30px;
+}
+.photo5{
+    position: relative;
+    top: 125px;
+    left: 50px;
+}
+.matn000000{
+    position: relative;
+    bottom: 330px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.k025{
+    position: relative;
+    bottom: 340px;
+    left: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
 }
 .back6{
-    width: 300px;
-    height: 400px;
-    background-color: #ff00e1;
+    width: 340px;
+    height: 500px;
+    background-color: #4190F7;
     border-radius: 20px;
+    position: relative; 
+    right: 70px;
+}
+.logo011{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.matn0000000{
+    position: relative;
+    bottom: 330px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.k026{
+    position: relative;
+    bottom: 340px;
+    left: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.photo6{
+    position: relative;
+    top: 125px;
+    left: 55px;
 }
