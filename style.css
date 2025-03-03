@@ -1088,14 +1088,14 @@ padding: 5 15 5;
 }
 .matn2p4{
     position: relative;
-    bottom: 70%;
+    bottom: 75%;
     left: 50px;
     font-size: 25px;
     color: #ffffff;
 }
 .lim2{
     position: relative;
-    bottom: 73%;
+    bottom: 78%;
     left: 50px;
     font-size: 20px;
     color: #ffffff;
@@ -1132,4 +1132,108 @@ font-weight: 750;
     text-decoration: none;
     color: #ffffff;
     font-weight: 700;
+}
+.page5{
+    width: 100%;
+    height: 1000px;
+    background-color: #12172c;
+    position: relative; 
+    top: 5%;
+}
+.matnp5{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+}
+.boxp5{
+    background-color: #1e2337;
+    border-radius: 30px;
+    width: 75%;
+    height: 500px;
+    position: relative;
+    left: 12%;
+    top: 17%;
+}
+.appbox{
+    background-color: #1e2337;
+    width:250px;
+    height: 50px;
+    position: relative;
+    top: 65px;
+}
+.appbox:hover{
+    background-color:rgba(255, 255, 255, 0.044);
+opacity: 0.9;
+}
+.appsimg{
+position: relative;
+left: 50px;
+}
+.appsmtn{
+    color: #ffffff;
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.appbox2{
+    background-color:#1e2337 ;
+    width:250px;
+    height: 50px;
+    position: relative;
+    top: 65px;
+}
+.appsimg2{
+    position: relative;
+left: 50px;
+}
+.appsmtn2{
+    color: #ffffff;
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.appbox3{
+    background-color:#1e2337 ;
+    width:250px;
+    height: 50px;
+    position: relative;
+    top: 65px;
+}
+.appsimg3{
+    position: relative;
+left: 50px;
+}
+.appsmtn3{
+    color: #ffffff;
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.parroad{
+    font-weight: 600;
+    position: relative;
+    top: 45%;
+    left: 52px;
+    color: #ffffff;
+}
+.colorroad{
+    color: #0198ea;
+}
+.khat{
+    height: 385px;
+    width: 1;
+     background-color: #2c3043;
+    position: relative;
+    bottom: 35%;
+    left: 250px;
 }
