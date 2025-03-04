@@ -1143,7 +1143,7 @@ font-weight: 750;
 .matnp5{
     color: #ffffff;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     position: relative;
     top: 120px;
@@ -1236,4 +1236,33 @@ left: 50px;
     position: relative;
     bottom: 35%;
     left: 250px;
+}
+.tguser{
+    color: #ffffff;
+    position: relative; 
+    bottom: 116%;
+    left: 330px;
+font-size: 28px;
+}
+.parag{
+    position: relative;
+    bottom: 600px;
+    left: 330px;
+   color: #f0f0f3;
+   font-size: 24px;
+   display: flex;
+   text-align: start;
+}
+.linkp5{
+    color:#00aaff;
+    position: relative;
+    top: 190px;
+    right: 365px;
+    text-decoration: none;
+}
+.no{
+    position: relative;
+    bottom: 123.2%;
+    left: 36.3%;
+    color: #ffffff;
 }
