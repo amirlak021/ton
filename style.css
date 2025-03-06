@@ -1276,7 +1276,7 @@ font-size: 28px;
 }
 .no{
     position: relative;
-    bottom: 123.2%;
+    bottom: 121.3%;
     left: 36.3%;
     color: #ffffff;
 }
@@ -1310,4 +1310,23 @@ font-size: 28px;
     color: #ffffff;
     position: relative;
     bottom: 5;
+}
+.card{
+width: 100px;
+height: 100px;
+background-color: #1e2337;
+}
+.card2{
+    width: 100px;
+    height: 100px;
+    background-color: #1e2337;
+    position: relative;
+    right: 5%;
+}
+.card3{
+    width: 100px;
+    height: 100px;
+    background-color: #1e2337;
+    position: relative;
+    left: 5%;
 }
