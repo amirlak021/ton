@@ -1135,7 +1135,7 @@ font-weight: 750;
 }
 .page5{
     width: 100%;
-    height: 1000px;
+    height: 1100px;
     background-color: #12172c;
     position: relative; 
     top: 5%;
@@ -1316,4 +1316,61 @@ padding: 0px 40px;
     position: absolute;
     right: 40px;
     border-radius: 15px;
+}
+.threebox{
+    width: 100%;
+    height: 215px;
+    position: relative;
+    top: 240px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cardbox{
+    width: 360px;
+    height: 215px;
+  background-color: #1e2337;
+ border-radius: 20px;
+ position: relative;
+  left: 185px;
+}
+.icon01{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.topmtn{
+    width: 250px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.downmtn{
+    width: 250px;
+    color: #e3e3e3;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: 55px;
+    left: 20px;
+}
+
+.cardbox2{
+    width: 360px;
+    height: 215px;
+  background-color: #1e2337;
+  border-radius: 20px;
+  position: relative;
+  left: 195px;
+}
+.cardbox3{
+    width: 360px;
+    height: 215px;
+  background-color: #1e2337;
+  border-radius: 20px;
+  position: relative;
+  left: 200px;
 }
