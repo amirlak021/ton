@@ -1,7 +1,8 @@
 body{
     width: 100%;
     height: 100%;
-    font-family: 'Arial', sans-serif; 
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 700;
     font-weight: normal;
     overflow-x: hidden;
     padding: 0%;
@@ -1336,8 +1337,8 @@ padding: 0px 40px;
 }
 .icon01{
     position: relative;
-    left: 20px;
-    top: 20px;
+    left: 40px;
+    top: 25px;
 }
 .topmtn{
     width: 250px;
@@ -1346,18 +1347,22 @@ padding: 0px 40px;
     font-weight: 600;
     position: relative;
     top: 50px;
-    left: 20px;
+    left: 40px;
 }
 .downmtn{
-    width: 250px;
+    width: 280px;
     color: #e3e3e3;
     font-size: 16px;
     font-weight: 600;
     position: relative;
     top: 55px;
-    left: 20px;
+    left: 40px;
+    letter-spacing: -.14px;
+    line-height: 25px;
 }
-
+.cardbox:hover{
+    background:  hsla(0, 0%, 100%, 0.078);
+ }
 .cardbox2{
     width: 360px;
     height: 215px;
@@ -1366,6 +1371,34 @@ padding: 0px 40px;
   position: relative;
   left: 195px;
 }
+.icon02{
+    position: relative;
+    left: 40px;
+    top: 25px;
+}
+.topmtn2{
+    width: 280px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.downmtn2{
+    width: 280px;
+    color: #e3e3e3;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: 55px;
+    left: 40px;
+    letter-spacing: -.14px;
+    line-height: 25px;
+}
+.cardbox2:hover{
+    background:  hsla(0, 0%, 100%, 0.078);
+ }
 .cardbox3{
     width: 360px;
     height: 215px;
@@ -1374,3 +1407,71 @@ padding: 0px 40px;
   position: relative;
   left: 200px;
 }
+.icon03{
+    position: relative;
+    left: 40px;
+    top: 25px;
+}
+.topmtn3{
+    width: 280px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.downmtn3{
+    width: 280px;
+    color: #e3e3e3;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: 55px;
+    left: 40px;
+    letter-spacing: -.14px;
+    line-height: 25px;
+}
+.cardbox3:hover{
+    background:  hsla(0, 0%, 100%, 0.078);
+ }
+ .container{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 180px;
+ }
+ .page6{
+    width: 1150px;
+    height: 570px;
+    position: relative;
+    left: 65px;
+    gap: 20px;
+ }
+ .mtnp6{
+    width: 1150px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    position: relative;
+    left: 120px;
+ }
+ /*
+ .community-member{
+    width: 550px;
+    height: 450px;
+    background: linear-gradient(90.41deg, #458cfe -.89%, #7dd8fd 112.62%);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+ }
+ .ton-community{
+    width: 550px;
+    height: 450px;
+    background: linear-gradient(90.41deg, #458cfe -.89%, #7dd8fd 112.62%);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
+*/
