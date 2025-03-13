@@ -1551,3 +1551,104 @@ padding: 0px 40px;
     color: #fff;
     font-weight: 700;
 }
+.member-space{
+    width: 480px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+padding: 58px 0;
+gap: 12px;
+}
+.number{
+    width: 480px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.number1{
+height: 65px;
+width: 70px;
+background-color: #fff;
+border-radius: 10px;
+position: relative;
+left: 10px;
+}
+.number2{
+    height: 65px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+  
+}
+.number3{
+    height: 65px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    left: 12px;
+ }
+ .number4{
+    height: 65px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+   /* position: relative;
+    right: 13px;*/
+ }
+ .number5{
+    height: 65px;
+    width:70px;
+    background-color: #fff;
+    border-radius: 10px;
+   position: relative;
+    right: 12px;
+ }
+ .number6{
+    height: 65px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    right: 8px;
+ }
+ .number7{
+    height: 65px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+ }
+ .number8{
+    height: 65px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    right: 32px;
+ }
+ .one{
+    height: 24px;
+    width: 13px;
+    font-size: 28px;
+    font-weight: ;
+    position: relative;
+    left: 15px;
+    top: 17px;
+ }
+ .total-text{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+ }
+ .top-text{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    width: 420px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+ }
