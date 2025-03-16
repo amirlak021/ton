@@ -1694,55 +1694,164 @@ left: 10px;
     display: flex;
     justify-content: space-between;
 }
-.use{
-    width: 130px;
-    height: 270px;
-    position: relative;
-    left: 150px;
-    padding: 0px 16px;
-    line-height: 24px;
-    margin-bottom: 8px;
-}
 .biguse{
     width: 160px;
     height: 24px;
     font-size: 18px;
     font-weight: 600;
 }
-
+.use{
+    width: 130px;
+    height: 295px;
+    position: relative;
+    left: 150px;
+    padding: 0px 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
 .learn{
     width: 130px;
-    height: 270px;
+    height: 295px;
     position: relative;
-    left: 55px;
+    left: 95px;
     padding: 0px 16px;
     line-height: 24px;
     margin-bottom: 8px;
 }
 .fordevelopers{
     width: 130px;
-    height: 270px;
+    height: 295px;
     position: relative;
-    right: 40px;
+   left: 20px;
     padding: 0px 16px;
     line-height: 24px;
     margin-bottom: 8px;
 }
 .builderscases{
     width: 130px;
-    height: 270px;
+    height: 295px;
     position: relative;
-    right: 132px;
+    right: 40px;
     padding: 0px 16px;
     line-height: 24px;
     margin-bottom: 8px;
 }
 .BuildersSupport{
     width: 130px;
-    height: 270px;
+    height: 295px;
     position: relative;
-    right: 225px;
+    right: 100px;
     padding: 0px 16px;
     line-height: 24px;
     margin-bottom: 8px;
+}
+.Community{
+    position: relative;
+    bottom: 150px;
+}
+.icon-search-space{
+    width: 100px;
+    height: 270px;
+    padding: 0px 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    position: relative;
+    right: 220px;
+}
+.space2{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+}
+.search-icon{
+    position: relative;
+    top: 2px;
+}
+.text-span2{
+    position: relative;
+    bottom: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link-case-colorandsize{
+    text-decoration: none;
+    color: #728A96;
+    font-size: 14px;
+}
+.link-case-colorandsize:hover{
+    color: #00aaff;
+}
+.linkcase{
+    width: 160px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.linkcase2{
+    width: 160px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.linkcase3{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.linkcase4{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.linkcase5{
+    width: 160px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.linkcase6{
+    width: 160px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.endpage{
+    width: 1118px;
+    height: 200px;
+   position: relative;
+   top: 78%;
+   left: 165px;
+}
+.endkhat{
+    width: 1118px;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+.endsicon{
+    width: auto;
+    height: 90px;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: absolute;
+    right: 0px;
+    padding: 24px 0 40px;
+}
+.forhover:hover{
+    background-image: #00aaff;
 }
